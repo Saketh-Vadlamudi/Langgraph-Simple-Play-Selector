@@ -1,0 +1,9 @@
+pydantic
+langchain
+langgraph
+langchain-core
+langchain-community
+typing-extensions
+pydot
+graphviz
+pillow

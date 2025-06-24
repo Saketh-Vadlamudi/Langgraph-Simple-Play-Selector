@@ -1,0 +1,34 @@
+# Byte-code files
+*.pyc
+__pycache__/
+
+# Virtual environment
+.venv/
+venv/
+env/
+.env
+
+# Editor/IDE files
+.idea/
+.vscode/
+*.swp
+*.bak
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+tmp/
+
+# If you generate graph images
+*.png
+*.svg

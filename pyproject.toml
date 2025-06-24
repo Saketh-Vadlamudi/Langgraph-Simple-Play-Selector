@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "your-langgraph-project"
+version = "0.1.0"
+description = "A simple Langgraph project demonstrating state management and conditional edges."
+authors = ["Your Name <your.email@example.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13" # Adjust based on your Python version
+langgraph = "^0.0.X" # Replace X with the latest minor version
+typing-extensions = "^4.X.X" # Replace X with the latest minor version
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.X.X" # Replace X with latest version
+black = "^24.X.X" # Replace X with latest version
+# pydot = "^1.X.X" # Uncomment if you need graph visualization locally
+# graphviz = "^0.X.X" # Uncomment if you need graph visualization locally
+# pillow = "^10.X.X" # Uncomment if you need graph visualization locally
+
+[tool.ruff]
+# Enable specific rules or categories
+select = ["E", "F", "W", "I", "N"]
+# E: pycodestyle errors
+# F: Pyflakes errors
+# W: pycodestyle warnings
+# I: Isort
+# N: Naming conventions
+
+# Exclude files from linting
+exclude = [
+    ".git",
+    "__pycache__",
+    "venv",
+    ".venv",
+    "build",
+    "dist",
+]
+
+# Set line length limit
+line-length = 88
+
+[tool.black]
+line-length = 88
+target-version = ['py39'] # Adjust based on your Python version
