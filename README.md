@@ -1,5 +1,5 @@
 # Langgraph Simple Play Selector 
-
+ 
 A basic demonstration of `langgraph`'s `StateGraph` to simulate a random choice between playing cricket or badminton, showcasing conditional edges and state management.
 
 ## 🚀 Features
